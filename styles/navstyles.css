@@ -1,0 +1,54 @@
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    position: sticky;
+}
+
+
+
+.menu-list{
+   display: inline-flex;
+   list-style: none;
+   align-items: center;
+}
+
+.menu-list li {
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.sub-menu-list{
+    display: none;
+}
+
+.menu-list li:hover .sub-menu-list {
+    display: block;
+    position: absolute;
+}
+
+.menu-list li:hover .sub-menu-list ul {
+    display: block;
+    margin: 15px;
+    list-style: none;
+    margin-left: 0;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.menu-list li:hover .sub-menu-list ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-list li:hover .sub-menu-list ul li:hover {
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    
+}

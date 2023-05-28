@@ -1,0 +1,26 @@
+.support-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.support-text-con{
+    width: 40%;
+    padding-right: 30px;
+    gap: 30px;
+}
+.support-image-con{
+    width: 50%;
+}
+
+.support-para-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.support-image{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    object-fit: fill;
+}

@@ -1,0 +1,23 @@
+.service-section-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.each-service-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    border-right:1px solid #fff;
+  
+}
+
+.each-service-con:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

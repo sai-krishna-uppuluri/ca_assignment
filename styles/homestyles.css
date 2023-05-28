@@ -1,0 +1,13 @@
+.home-con {
+    background-image: url(../public/banner-image.jpg);
+    height: 90vh;
+    background-size: cover;
+}
+
+.home-banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 500px;
+}
